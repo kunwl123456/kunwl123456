@@ -226,7 +226,21 @@ public:
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
+
+#### 🎮 AutoGame AI
+AI游戏服务与应用平台
+- 🎙️ 智能语音合成服务
+- 🤖 AI对话与交互系统
+- 🎯 游戏智能化解决方案
+- 🌐 企业级AI服务部署
+
+**技术栈**: `AI` `Game` `TTS` `NLP`
+
+[![官网](https://img.shields.io/badge/Website-autogame.ai-green?style=flat-square&logo=google-chrome)](https://autogame.ai/en)
+
+</td>
+<td width="33%">
 
 #### 🎙️ GPT-SoVITS语音服务
 高性能TTS推理部署系统
@@ -235,58 +249,23 @@ public:
 - 💾 MongoDB智能缓存
 - 🐳 Docker容器化部署
 
-**技术栈**: `Python` `FastAPI` `WebSocket` `MongoDB` `Docker`
+**技术栈**: `Python` `FastAPI` `WebSocket` `MongoDB`
 
-[![代码仓库](https://img.shields.io/badge/GitHub-voice__server-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/voice_server)
+![Private](https://img.shields.io/badge/Status-Private-orange?style=flat-square)
 
 </td>
-<td width="50%">
+<td width="33%">
 
 #### 🧠 Kacha推理引擎
 纯C++手撕LLM推理框架
 - 🔧 支持Qwen/LLama系列模型
 - ⚡ CUDA算子优化（RMSNorm）
 - 🎯 从WarpReduce到BlockReduce
-- 📊 企业级依赖（glog/gtest/sentencepiece）
+- 📊 企业级依赖（glog/sentencepiece）
 
 **技术栈**: `C++` `CUDA` `TensorRT` `Armadillo`
 
 [![代码仓库](https://img.shields.io/badge/GitHub-kacha__infer-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/kacha_infer)
-
-</td>
-</tr>
-</table>
-
-### 🎮 游戏后端项目
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🏰 TH-MMORPG框架
-完整的MMORPG游戏服务器架构
-- 🗺️ 场景管理系统
-- ⚔️ 实时战斗系统
-- 💾 数据持久化方案
-- 🌐 高并发网络通信
-
-**技术栈**: `C++` `网络编程` `多线程` `数据库`
-
-[![代码仓库](https://img.shields.io/badge/GitHub-TH-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/TH)
-
-</td>
-<td width="50%">
-
-#### 🕷️ Worms爬虫框架
-高性能分布式爬虫系统
-- 🚀 分布式架构设计
-- 🔄 任务队列管理
-- 📊 数据采集与存储
-- ⚡ 高效并发处理
-
-**技术栈**: `Python` `分布式` `异步IO` `Redis`
-
-[![代码仓库](https://img.shields.io/badge/GitHub-worms-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/worms)
 
 </td>
 </tr>
