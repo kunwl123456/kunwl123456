@@ -35,10 +35,12 @@ public:
     };
     
     void current_focus() {
-        cout << "🎮 游戏后端架构设计与优化" << endl;
-        cout << "🤖 大模型推理部署与蒸馏" << endl;
-        cout << "⚡ CUDA/TensorRT 性能优化" << endl;
-        cout << "🌐 高并发网络编程" << endl;
+        cout << "🧠 LLM推理引擎 - C++手撕Qwen/LLama推理框架" << endl;
+        cout << "🎙️ 语音合成服务 - GPT-SoVITS生产化部署" << endl;
+        cout << "🎮 游戏服务器 - MMORPG架构设计与优化" << endl;
+        cout << "⚡ CUDA优化 - 自定义算子、性能调优" << endl;
+        cout << "🔗 AI应用 - LangChain、RAG、Agent构建" << endl;
+        cout << "🎨 多模态 - SD+ControlNet量化部署" << endl;
     }
 };
 ```
@@ -50,21 +52,22 @@ public:
 <td width="50%">
 
 #### 🎮 游戏开发
-- 游戏服务器架构
-- ARPG/魂类游戏系统
-- MOBA类游戏后端
-- 高性能网络框架
-- 数据转移与存储
+- 🏰 **MMORPG服务器架构** - 场景、战斗、数据持久化
+- ⚔️ **ARPG/魂类游戏系统** - 动作系统、AI行为树
+- 🎯 **MOBA类游戏后端** - 高并发、帧同步
+- 🌐 **网络编程** - TCP/UDP、DPDK、Protobuf
+- 🔧 **中间件开发** - 通讯器、消息队列、分布式系统
 
 </td>
 <td width="50%">
 
 #### 🤖 AI工程
-- 大语言模型微调部署
-- GPT-SoVITS语音合成
-- YOLOv8目标检测
-- 模型量化与剪枝
-- TensorRT推理优化
+- 🧠 **大语言模型** - 微调（LoRA/QLoRA）、蒸馏、部署
+- 🎙️ **语音合成** - GPT-SoVITS、量化加速
+- 🎨 **图像生成** - Stable Diffusion、ControlNet部署
+- 🎯 **目标检测** - YOLOv8、模型剪枝、TensorRT优化
+- ⚡ **推理优化** - CUDA算子、Triton Server、分布式训练
+- 🔗 **AI应用** - LangChain、RAG、Agent构建
 
 </td>
 </tr>
@@ -117,40 +120,92 @@ public:
 
 ### 📝 CSDN 热门文章
 
-- 🤖 [手撕大模型推理框架](https://blog.csdn.net/weixin_43679037) - 414阅读 · 3点赞
-- 🎙️ [GPT-SoVITS量化笔记](https://blog.csdn.net/weixin_43679037) - 1.5K阅读 · 20点赞  
-- 🚀 [大模型微调与部署课程笔记](https://blog.csdn.net/weixin_43679037) - 391阅读 · 5点赞
-- 🎯 [YOLOv8目标检测实战](https://blog.csdn.net/weixin_43679037) - 968阅读 · 25点赞
-- 🔬 [大模型知识蒸馏实战](https://blog.csdn.net/weixin_43679037) - 1.5K阅读 · 25点赞
+#### 🤖 大模型 & AI应用
+- 🧠 [手撕大模型推理框架](https://blog.csdn.net/weixin_43679037) - 企业级LLM推理框架搭建
+- 🔬 [大模型知识蒸馏实战（Qwen2.5系列KL散度蒸馏）](https://blog.csdn.net/weixin_43679037) - 1.5K阅读 · 25点赞
+- 📚 [大模型微调与部署课程笔记](https://blog.csdn.net/weixin_43679037) - LoRA、QLoRA、PEFT实战
+- 🔗 [LangChain构建AI应用](https://blog.csdn.net/weixin_43679037) - RAG、Agent、LangSmith监控
+- 🚀 [大模型分布式训练（Accelerate+DeepSpeed）](https://blog.csdn.net/weixin_43679037) - 1.9K阅读 · 28点赞
+- 🍃 [用DeepSeek-R1蒸馏模型原理和流程（黑盒蒸馏）](https://blog.csdn.net/weixin_43679037)
+
+#### 🎙️ 语音合成 & 图像生成
+- 🎵 [GPT-SoVITS量化笔记](https://blog.csdn.net/weixin_43679037) - 完整的TTS训练推理流程 · 1.5K阅读 · 20点赞
+- 🎨 [ControlNet配合SD量化部署](https://blog.csdn.net/weixin_43679037) - Stable Diffusion工业级部署方案
+
+#### 🎯 目标检测 & 模型优化
+- 🎯 [YOLOv8目标检测实战（TensorRT优化）](https://blog.csdn.net/weixin_43679037) - 968阅读 · 25点赞
+- ✂️ [YOLOv8模型剪枝笔记（DepGraph+Network Slimming）](https://blog.csdn.net/weixin_43679037) - 749阅读 · 6点赞
+- 🚀 [Triton推理服务器部署YOLOv8](https://blog.csdn.net/weixin_43679037) - ONNX Runtime + TensorRT后端 · 1K阅读
+
+#### ⚡ CUDA & TensorRT性能优化
+- 💻 [CUDA与TensorRT学习笔记](https://blog.csdn.net/weixin_43679037) - CNN/YOLOv8/BEVFusion部署 · 1.1K阅读
+- 🔧 [RMSNorm算子CUDA实现与优化](https://blog.csdn.net/weixin_43679037) - 从WarpReduce到BlockReduce
 
 ### 💡 技术专栏
 
 <table>
 <tr>
-<td align="center" width="20%">
+<td align="center" width="16.6%">
   <img src="https://img.icons8.com/color/96/000000/artificial-intelligence.png" width="60"/><br />
   <b>大语言模型</b><br />
   35篇文章
 </td>
-<td align="center" width="20%">
+<td align="center" width="16.6%">
   <img src="https://img.icons8.com/color/96/000000/nvidia.png" width="60"/><br />
   <b>CUDA/TensorRT</b><br />
   16篇文章
 </td>
-<td align="center" width="20%">
+<td align="center" width="16.6%">
   <img src="https://img.icons8.com/color/96/000000/controller.png" width="60"/><br />
   <b>游戏开发</b><br />
   43篇文章
 </td>
-<td align="center" width="20%">
+<td align="center" width="16.6%">
   <img src="https://img.icons8.com/color/96/000000/server.png" width="60"/><br />
   <b>服务器开发</b><br />
   55篇文章
 </td>
-<td align="center" width="20%">
+<td align="center" width="16.6%">
   <img src="https://img.icons8.com/color/96/000000/database.png" width="60"/><br />
   <b>数据库</b><br />
   47篇文章
+</td>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png" width="60"/><br />
+  <b>C++开发</b><br />
+  83篇文章
+</td>
+</tr>
+<tr>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/docker.png" width="60"/><br />
+  <b>容器编排</b><br />
+  5篇文章
+</td>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/wifi.png" width="60"/><br />
+  <b>网络编程</b><br />
+  18篇文章
+</td>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/settings.png" width="60"/><br />
+  <b>中间件</b><br />
+  18篇文章
+</td>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/parallel-tasks.png" width="60"/><br />
+  <b>多线程编程</b><br />
+  14篇文章
+</td>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/linux.png" width="60"/><br />
+  <b>Linux系统</b><br />
+  28篇文章
+</td>
+<td align="center" width="16.6%">
+  <img src="https://img.icons8.com/color/96/000000/spider.png" width="60"/><br />
+  <b>爬虫技术</b><br />
+  数据分析
 </td>
 </tr>
 </table>
@@ -169,41 +224,85 @@ public:
 
 ### 🤖 AI应用项目
 
-<a href="https://github.com/kunwl123456/voice_server">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=voice_server&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</a>
-<a href="https://github.com/kunwl123456/kacha_infer">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=kacha_infer&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</a>
+<table>
+<tr>
+<td width="50%">
 
-- 🎙️ **[GPT-SoVITS语音服务](https://github.com/kunwl123456/voice_server)** - 高性能TTS推理部署，支持WebSocket通信、批量处理、MongoDB缓存
-- 🧠 **[Kacha推理引擎](https://github.com/kunwl123456/kacha_infer)** - 纯C++手撕LLM推理框架，支持Qwen/LLama，CUDA优化RMSNorm算子
+#### 🎙️ GPT-SoVITS语音服务
+高性能TTS推理部署系统
+- ⚡ WebSocket实时通信
+- 📦 批量请求处理（48/batch）
+- 💾 MongoDB智能缓存
+- 🐳 Docker容器化部署
+
+**技术栈**: `Python` `FastAPI` `WebSocket` `MongoDB` `Docker`
+
+[![代码仓库](https://img.shields.io/badge/GitHub-voice__server-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/voice_server)
+
+</td>
+<td width="50%">
+
+#### 🧠 Kacha推理引擎
+纯C++手撕LLM推理框架
+- 🔧 支持Qwen/LLama系列模型
+- ⚡ CUDA算子优化（RMSNorm）
+- 🎯 从WarpReduce到BlockReduce
+- 📊 企业级依赖（glog/gtest/sentencepiece）
+
+**技术栈**: `C++` `CUDA` `TensorRT` `Armadillo`
+
+[![代码仓库](https://img.shields.io/badge/GitHub-kacha__infer-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/kacha_infer)
+
+</td>
+</tr>
+</table>
 
 ### 🎮 游戏后端项目
 
-<a href="https://github.com/kunwl123456/TH">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=TH&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</a>
+<table>
+<tr>
+<td width="50%">
 
-- 🏰 **[TH-MMORPG框架](https://github.com/kunwl123456/TH)** - 完整的MMORPG游戏服务器架构，支持场景管理、战斗系统、数据持久化
+#### 🏰 TH-MMORPG框架
+完整的MMORPG游戏服务器架构
+- 🗺️ 场景管理系统
+- ⚔️ 实时战斗系统
+- 💾 数据持久化方案
+- 🌐 高并发网络通信
 
-### 🛠️ 工具与中间件
+**技术栈**: `C++` `网络编程` `多线程` `数据库`
 
-<a href="https://github.com/kunwl123456/worms">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=worms&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</a>
+[![代码仓库](https://img.shields.io/badge/GitHub-TH-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/TH)
 
-- 🕷️ **[Worms爬虫框架](https://github.com/kunwl123456/worms)** - 高性能分布式爬虫系统
+</td>
+<td width="50%">
+
+#### 🕷️ Worms爬虫框架
+高性能分布式爬虫系统
+- 🚀 分布式架构设计
+- 🔄 任务队列管理
+- 📊 数据采集与存储
+- ⚡ 高效并发处理
+
+**技术栈**: `Python` `分布式` `异步IO` `Redis`
+
+[![代码仓库](https://img.shields.io/badge/GitHub-worms-blue?style=flat-square&logo=github)](https://github.com/kunwl123456/worms)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🎯 2025年目标
 
-- [ ] 📚 完成大模型推理优化系列文章
-- [ ] 🎮 开源一个完整的游戏服务器框架
-- [ ] 🚀 深入研究 DeepSeek-R1 蒸馏技术
-- [ ] 💻 贡献更多高质量开源项目
-- [ ] 📝 CSDN 博客访问量突破 100万
+- [ ] 🧠 **完成Kacha推理引擎** - 支持更多大模型，优化CUDA算子性能
+- [ ] 🎙️ **GPT-SoVITS生产化** - 性能优化、监控告警、服务治理
+- [ ] 🎮 **开源TH-MMORPG框架** - 完善文档，提供Demo和最佳实践
+- [ ] 🚀 **深入研究DeepSeek-R1** - 蒸馏技术、推理优化、量化部署
+- [ ] 🔗 **LangChain企业级应用** - 构建RAG系统、Agent框架
+- [ ] 📝 **CSDN博客访问量破100万** - 分享更多技术实战经验
+- [ ] 💻 **贡献开源社区** - 参与PyTorch、TensorRT等项目
 
 ---
 
