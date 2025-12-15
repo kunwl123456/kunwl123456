@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=你的GitHub用户名&label=Profile%20views&color=00d9ff&style=for-the-badge" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=kunwl123456&label=Profile%20views&color=00d9ff&style=for-the-badge" alt="profile views" />
   <img src="https://img.shields.io/badge/CSDN-访问量_667K+-red?style=for-the-badge&logo=C&logoColor=white" alt="CSDN" />
   <img src="https://img.shields.io/badge/原创博文-438篇-orange?style=for-the-badge&logo=blogger&logoColor=white" alt="articles" />
   <img src="https://img.shields.io/badge/粉丝-1494-green?style=for-the-badge&logo=github&logoColor=white" alt="followers" />
@@ -99,16 +99,16 @@ public:
 ## 📊 GitHub 统计
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=你的GitHub用户名&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=你的GitHub用户名&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kunwl123456&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunwl123456&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=你的GitHub用户名&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kunwl123456&theme=tokyonight&hide_border=true&background=0d1117&stroke=00d9ff&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=你的GitHub用户名&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kunwl123456&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -160,20 +160,40 @@ public:
 ## 📈 贡献统计
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=你的GitHub用户名&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kunwl123456&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff" alt="Contribution Graph" />
 </div>
 
 ---
 
-## 💼 项目展示
+## 💼 精选项目
 
-<div align="center">
+### 🤖 AI应用项目
 
-| 🎮 游戏后端项目 | 🤖 AI应用项目 |
-|:---:|:---:|
-| [![ARPG魂类游戏](https://github-readme-stats.vercel.app/api/pin/?username=你的GitHub用户名&repo=项目仓库名&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/你的GitHub用户名/项目仓库名) | [![GPT-SoVITS部署](https://github-readme-stats.vercel.app/api/pin/?username=你的GitHub用户名&repo=项目仓库名&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/你的GitHub用户名/项目仓库名) |
+<a href="https://github.com/kunwl123456/voice_server">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=voice_server&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</a>
+<a href="https://github.com/kunwl123456/kacha_infer">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=kacha_infer&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</a>
 
-</div>
+- 🎙️ **[GPT-SoVITS语音服务](https://github.com/kunwl123456/voice_server)** - 高性能TTS推理部署，支持WebSocket通信、批量处理、MongoDB缓存
+- 🧠 **[Kacha推理引擎](https://github.com/kunwl123456/kacha_infer)** - 纯C++手撕LLM推理框架，支持Qwen/LLama，CUDA优化RMSNorm算子
+
+### 🎮 游戏后端项目
+
+<a href="https://github.com/kunwl123456/TH">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=TH&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</a>
+
+- 🏰 **[TH-MMORPG框架](https://github.com/kunwl123456/TH)** - 完整的MMORPG游戏服务器架构，支持场景管理、战斗系统、数据持久化
+
+### 🛠️ 工具与中间件
+
+<a href="https://github.com/kunwl123456/worms">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kunwl123456&repo=worms&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</a>
+
+- 🕷️ **[Worms爬虫框架](https://github.com/kunwl123456/worms)** - 高性能分布式爬虫系统
 
 ---
 
@@ -192,8 +212,8 @@ public:
 <div align="center">
 
 [![CSDN](https://img.shields.io/badge/CSDN-谢白羽-red?style=for-the-badge&logo=C&logoColor=white)](https://blog.csdn.net/weixin_43679037)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/你的GitHub用户名)
-[![Email](https://img.shields.io/badge/Email-联系我-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/kunwl123456)
+[![Email](https://img.shields.io/badge/Email-联系我-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:645310170@qq.com)
 
 </div>
 
