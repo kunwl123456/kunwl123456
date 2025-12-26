@@ -301,7 +301,7 @@ AI游戏服务与应用平台
   
 ### 💭 一句话
 
-> "代码改变世界，技术成就未来"
+> "我一拳打飞你的医保卡"
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 
